@@ -18,27 +18,34 @@ body {
 img.rodoviaria {
   border-radius: 20px;
   position: absolute;  
-  top: 80px;      /* aumenta esse valor para descer a imagem */
+  top: 95px;      /* aumenta esse valor para descer a imagem */
+  left: 60px;
 }
 
-#page{
+img.estacao {
+  border-radius: 20px;
+  position: absolute;  
+  top: 700px;      /* aumenta esse valor para descer a imagem */
+  left: 60px;
+}
+
+#page {
   box-sizing: border-box;
-  width: 730px;
+  width: 800px;
   padding: 24px;
   background-color: #FFFFFF;
   border-radius: 20px;
   margin: 50px auto;
-  padding-bottom: 2000px; /* aumenta ou diminui margem inferior */
+  padding-bottom: 1500px; /* aumenta ou diminui margem inferior */
   position: absolute;
-  left: 500px;    
-  top: -10px;    
+  left: 430px;    
+  top: 50px;    
 }
 
 main {
   position: absolute; 
-  top: 200px;
-  left: 150px; 
-  text-align: left;
+  top: 250px;
+  left: 80px; 
 }
 
 h1
@@ -51,33 +58,70 @@ h1
 
 header {
   color: #E16756;
+  font-size: 8px;
+  font-weight: 800;
+  position: absolute;
+  left: 56px;    
+  top: 23px; 
+}
+
+.para-amantes-da-historia {
+  color: #E16756;
   font-size: 10px;
   font-weight: 800;
-  
   position: absolute;
-  left: 24px;    
-  top: 6px; 
+  left: 56px;    
+  top: 603px; 
 }
+
+.descubra-3-destinos {
+  color: black;
+  font-size: 13px;
+  font-weight: 800;
+  position: absolute;
+  left: 60px;    
+  top: 620px; 
+}
+
+#texto2 {
+  position: absolute;
+  left: 10px;    
+  top: 610px; 
+  line-height: 20px;
+  padding: 50px;
+
+}
+
+#texto2 p {
+  color: #2f2f2f;
+  font-weight: 200;
+  font-size: 13px;
+}
+
 
 h2 {
+  font-size: 12px;
   color: black;
-  font-weight: 650;
-  
+  font-weight: 800;
   position: absolute;
-  left: 24px;    
-  top: 32px; 
+  left: 60px;    
+  top: 40px; 
 }
 
-#conheça {
+
+#texto1 {
   position: absolute;
-  left: 6px;    
-  top: 480px; 
+  left: 5px;    
+  top: 455px; 
+  line-height: 20px;
+  padding: 50px;
+
 }
 
-#conheça p {
-  color: #000000;
+#texto1 p {
+  color: #2f2f2f;
   font-weight: 200;
-  font-size: 15px;
+  font-size: 13px;
   text-align: center;
 }
 
@@ -87,13 +131,21 @@ p {
   color: #8D8D99;
 }
 
-footer img {
-  position: absolute;
-  z-index: 0;
-  background-size: cover;
+footer{
+  position: fixed;
   bottom: 0;
   left: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+footer img {
+  position: static;
+  background-size: cover;
+  display: block;
   width: 200%; 
   text-align: center;
-  padding: 15px 0;
+  padding: 0;
+  margin: 0;
+  z-index: 999 
 }
