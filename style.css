@@ -55,7 +55,7 @@ img.fullstack {
 
 img.logo {
   position: absolute;  
-  left: -362px; 
+  left: -372px; 
   top: -110px;
   height: 300px;
 }
@@ -67,7 +67,7 @@ img.logo {
   background-color: #FFFFFF;
   border-radius: 20px;
   margin: 50px auto;
-  padding-bottom: 2960px; /* aumenta ou diminui margem inferior */
+  padding-bottom: 2900px; /* aumenta ou diminui margem inferior */
   position: absolute;
   left: 430px;    
   top: 50px;    
@@ -80,10 +80,34 @@ main {
 }
 
 h1 {
+  
   font-size: 40px;
   font-weight: 500;
   margin-bottom: 0px;
   padding: 4px;
+}
+
+#card-fixo {
+  position: fixed;
+  left: 75px;
+  top: 290px;
+  width: 350px;
+  z-index: 100;
+}
+
+#card-fixo h1 {
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 0px;
+  padding: 4px;
+  position: static;
+}
+
+#card-fixo p {
+  font-size: 18px;
+  font-weight: 100;
+  color: #8D8D99;
+  position: static;
 }
 
 header {
