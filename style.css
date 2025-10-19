@@ -86,6 +86,9 @@ img.logo {
   position: absolute;
   left: 430px;    
   top: 50px;    
+
+  border: 16px solid #2f2f2fee;
+  box-shadow: 0 0 30px #ffffff;
 }
 
 main {
