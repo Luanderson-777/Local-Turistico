@@ -88,11 +88,11 @@ h1 {
 
 header {
   color: #E16756;
-  font-size: 8px;
+  font-size: 10px;
   font-weight: 800;
   position: absolute;
   left: 56px;    
-  top: 23px; 
+  top: 12px; 
 }
 
 .para-amantes-da-historia {
@@ -101,16 +101,16 @@ header {
   font-weight: 800;
   position: absolute;
   left: 56px;    
-  top: 603px; 
+  top: 586px; 
 }
 
 .descubra-3-destinos {
   color: black;
-  font-size: 13px;
+  font-size: 20px;
   font-weight: 800;
   position: absolute;
   left: 60px;    
-  top: 620px; 
+  top: 610px; 
 }
 
 #texto2 {
@@ -129,12 +129,12 @@ header {
 }
 
 .estacao-da-cultura {
-  font-size: 12px;
-  top: 1350px;
+  font-size: 20px;
+  top: 1355px;
   color: black;
   font-weight: 800;
   position: absolute;
-  left: 60px;    
+  left: 60px;  
 }
 
 #texto3 {
@@ -167,8 +167,8 @@ header {
 }
 
 .igreja-matriz {
-  font-size: 12px;
-  top: 1980px;
+  font-size: 20px;
+  top: 1985px;
   color: black;
   font-weight: 800;
   position: absolute;
@@ -205,8 +205,8 @@ header {
 }
 
 .cruzeiro {
-  font-size: 12px;
-  top: 2720px;
+  font-size: 20px;
+  top: 2725px;
   color: black;
   font-weight: 800;
   position: absolute;
@@ -232,7 +232,7 @@ header {
   color: #ffa71b;
   font-size: 13px;
   left: 80px;
-  top: 170px;
+  top: 190px;
   font-weight: 700;
 }
 
@@ -241,7 +241,7 @@ header {
   color: #3596ff;
   font-size: 13px;
   left: 80px;
-  top: 190px;
+  top: 210px;
   font-weight: 700;
 }
 
@@ -250,7 +250,7 @@ header {
   color: #00af32;
   font-size: 13px;
   left: 80px;
-  top: 210px;
+  top: 230px;
   font-weight: 700;
 }
 
@@ -276,7 +276,7 @@ header {
 }
 
 h2 {
-  font-size: 12px;
+  font-size: 20px;
   color: black;
   font-weight: 800;
   position: absolute;
