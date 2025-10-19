@@ -30,6 +30,23 @@ img.estacao {
   width: 690px;
 }
 
+img.igreja {
+  border-radius: 20px;
+  position: absolute;  
+  top: 1570px;      /* aumenta esse valor para descer a imagem */
+  left: 60px;
+  width: 690px;
+}
+
+img.cruzeiro {
+  border-radius: 20px;
+  position: absolute;  
+  top: 2200px;      /* aumenta esse valor para descer a imagem */
+  left: 60px;
+  width: 690px;
+}
+
+
 #page {
   box-sizing: border-box;
   width: 800px;
@@ -123,7 +140,7 @@ header {
   left: 80px;
 }
 
-.historia {
+.historia-estacao {
   position: absolute;
   color: #E16756;
   font-size: 13px;
@@ -135,6 +152,115 @@ header {
   color: #2f2f2f;
   font-weight: 200;
   font-size: 13px;
+}
+
+.igreja-matriz {
+  font-size: 12px;
+  top: 1980px;
+  color: black;
+  font-weight: 800;
+  position: absolute;
+  left: 60px;    
+}
+
+#texto4 {
+  position: absolute;
+  left: 10px;    
+  top: 1960px; 
+  line-height: 20px;
+  padding: 50px;
+
+}
+
+#bom-para1 {
+  position: absolute;
+  font-size: 10px;
+  left: 80px;
+}
+
+.historia-igreja {
+  position: absolute;
+  color: #E16756;
+  font-size: 13px;
+  left: 80px;
+  font-weight: 700;
+}
+
+#texto4 p {
+  color: #2f2f2f;
+  font-weight: 200;
+  font-size: 13px;
+}
+
+.cruzeiro {
+  font-size: 12px;
+  top: 2720px;
+  color: black;
+  font-weight: 800;
+  position: absolute;
+  left: 60px;    
+}
+
+#texto5 {
+  position: absolute;
+  left: 10px;    
+  top: 2700px; 
+  line-height: 20px;
+  padding: 50px;
+}
+
+#bom-para2 {
+  position: absolute;
+  font-size: 10px;
+  left: 80px;
+}
+
+.contemplação {
+  position: absolute;
+  color: #ffa71b;
+  font-size: 13px;
+  left: 80px;
+  top: 170px;
+  font-weight: 700;
+}
+
+.Fotografias {
+  position: absolute;
+  color: #3596ff;
+  font-size: 13px;
+  left: 80px;
+  top: 190px;
+  font-weight: 700;
+}
+
+.Devoção {
+  position: absolute;
+  color: #00af32;
+  font-size: 13px;
+  left: 80px;
+  top: 210px;
+  font-weight: 700;
+}
+
+#texto5 p {
+  color: #2f2f2f;
+  font-weight: 200;
+  font-size: 13px;
+}
+
+#ultimo-txt {
+  position: absolute;
+  left: 10px;    
+  top: 2930px; 
+  line-height: 20px;
+  padding: 50px;
+}
+
+#ultimo-txt p {
+  color: #2f2f2f;
+  font-weight: 200;
+  font-size: 13px;
+  text-align: center;
 }
 
 h2 {
