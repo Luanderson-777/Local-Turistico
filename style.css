@@ -223,6 +223,8 @@ header {
 
 }
 
+
+
 #bom-para1 {
   position: absolute;
   font-size: 10px;
@@ -299,10 +301,24 @@ header {
   font-size: 13px;
 }
 
+.divider {
+  width: 100%;
+  height: 1px;
+  margin: 15px 0;
+  background-color: #d9d9d9;
+}
+
+.divider1 {
+  width: 100%;
+  height: 1px;
+  margin: 80px 0;
+  background-color: #d9d9d9;
+}
+
 #ultimo-txt {
   position: absolute;
   left: 10px;    
-  top: 2930px; 
+  top: 2940px; 
   line-height: 20px;
   padding: 50px;
 }
@@ -338,6 +354,13 @@ h2 {
   font-weight: 200;
   font-size: 13px;
   text-align: center;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  margin: 15px 0;
+  background-color: #d9d9d9;
 }
 
 p {
