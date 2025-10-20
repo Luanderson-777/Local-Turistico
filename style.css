@@ -11,7 +11,7 @@
 body {
   background-image: url(assets/bg.jpg);
   background-size: cover;
-  border-radius: 20px url(/assets/rodoviaria.jpg);
+  border-radius: 20px url(assets/rodoviaria.jpg);
   color: #FFFFFF;
 } 
 
